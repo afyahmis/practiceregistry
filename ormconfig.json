@@ -1,0 +1,11 @@
+{
+    "name": "default",
+    "type": "sqlite",
+    "database": "./practice.sqlite",
+    "entities": [
+        "src/core/model/domain/*.ts"
+    ],
+    "logging": true,
+    "synchronize": true
+}
+
