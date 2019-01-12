@@ -1,0 +1,26 @@
+{
+  "name": "practiceregistry",
+  "version": "0.1.0",
+  "description": "practice registry",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afyahmis/practiceregistry.git"
+  },
+  "keywords": [
+    "afyahmis"
+  ],
+  "author": "Koske Kimutai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afyahmis/practiceregistry/issues"
+  },
+  "homepage": "https://github.com/afyahmis/practiceregistry#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "lerna": "^3.10.5",
+    "typescript": "^3.2.2"
+  }
+}
