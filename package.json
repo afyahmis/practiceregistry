@@ -1,5 +1,5 @@
 {
-  "name": "practiceregistry",
+  "name": "@afyahmis/practiceregistry",
   "version": "0.1.0",
   "description": "practice registry",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/afyahmis/practiceregistry#readme",
   "dependencies": {
+    "@afyahmis/commonjs": "^0.1.10",
     "lodash": "^4.17.11",
     "reflect-metadata": "^0.1.12",
     "typedi": "^0.8.0",

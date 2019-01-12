@@ -1,5 +1,6 @@
-import { IRepositoryBase } from './IRepositoryBase';
-import { PracticeType } from '../model/domain/PracticeType';
+import { PracticeType } from '../model/PracticeType';
+import {IRepositoryBase} from "@afyahmis/commonjs";
 
-export interface IPracticeTypeRepository extends IRepositoryBase<PracticeType> {
+
+export interface IPracticeTypeRepository extends IRepositoryBase<PracticeType>{
 }

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import {createConnection, useContainer} from "typeorm";
 import {Container} from "typedi";
-import {PracticeType} from "../src/core/model/domain/PracticeType";
+import {PracticeType} from "../src/core/model/PracticeType";
 import * as faker from "faker";
 
 const dbPath: string = "test/practiceTest.sqlite";
@@ -22,7 +22,7 @@ export let initDbConnection = async () => {
             logging: false,
             type: "sqlite",
             database: dbPath,
-            entities: ["./src/core/model/domain/*.ts"],
+            entities: ["./src/core/model/*.ts"],
             synchronize: true
         }
     );

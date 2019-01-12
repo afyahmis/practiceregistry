@@ -1,8 +1,9 @@
-import {AggregateRoot} from "../AggregateRoot";
 import {Column, Entity} from "typeorm";
+import {AggregateRoot} from "@afyahmis/commonjs";
 
 @Entity()
 export class PracticeType extends AggregateRoot{
+
     @Column()
     id: string;
     @Column()
@@ -13,7 +14,7 @@ export class PracticeType extends AggregateRoot{
         this.id = id;
         this.description = description;
     }
-    
+
     toString(): string {
         return `${this.id}`;
     }

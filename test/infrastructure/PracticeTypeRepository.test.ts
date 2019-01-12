@@ -1,7 +1,7 @@
 import {Container} from "typedi";
 import {clearDb, createTestPracticeTypes, initDbConnection} from "../test-initializer";
 import {PracticeTypeRepository} from '../../src/infrastructure/PracticeTypeRepository';
-import {PracticeType} from '../../src/core/model/domain/PracticeType';
+import {PracticeType} from '../../src/core/model/PracticeType';
 
 describe("PracticeTypeRepository Tests", () => {
 
